@@ -65,5 +65,28 @@
     "sha256": "46ec8b15501150f75a4ba3989a17128f7d8e73e622572a8a8f0bc9d094be7c37",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotfirecapeplugin-0.3.71.jar",
     "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotFirecapePlugin-0.3.71.jar"
+  },
+  {
+    "internalName": "TechQolPlugin",
+    "name": "TechQol",
+    "description": "PvP protection — switches overhead prayers to match the gear of whoever is attacking you. Never blocks your input.",
+    "tags": [
+      "pvp",
+      "prayer",
+      "protection",
+      "qol",
+      "techbot"
+    ],
+    "version": "1.0.0",
+    "minClientVersion": "2.6.26",
+    "authors": [
+      "TechPlugins"
+    ],
+    "iconUrl": "",
+    "cardUrl": "",
+    "disable": false,
+    "sha256": "208f18ef7b205ae99e26f32c686d2681941472eac0fc48c4f649b297a6a5bd16",
+    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techqolplugin-1.0.0.jar",
+    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechQolPlugin-1.0.0.jar"
   }
 ]
