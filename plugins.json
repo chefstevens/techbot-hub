@@ -16,7 +16,7 @@
     "iconUrl": "",
     "cardUrl": "",
     "disable": false,
-    "sha256": "1ba51731560349a5fbbba73a14f8770b3601fece127f263f4cbbc89d313c2bcd",
+    "sha256": "fb2dec66b1f3e004d929f65cd74effbc748d4d09c7a60e823635d80c7fc42058",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotzulrahplugin-1.10.17.jar",
     "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotZulrahPlugin-1.10.17.jar"
   },
@@ -40,7 +40,7 @@
     "iconUrl": "",
     "cardUrl": "",
     "disable": false,
-    "sha256": "a0dae35f156f7577a39b02189bb7d63e048a32a3ad0b6a5fbe986ca69c13eb96",
+    "sha256": "46ec8b15501150f75a4ba3989a17128f7d8e73e622572a8a8f0bc9d094be7c37",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotfirecapeplugin-0.3.71.jar",
     "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotFirecapePlugin-0.3.71.jar"
   }
