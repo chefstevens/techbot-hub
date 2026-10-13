@@ -43,23 +43,12 @@ jobs:
       # builds produce the jars the manifest hashes, but the artifacts land in
       # the private techbot-jars repo via the techbot-plugins workflow. TechBot
       # entries carry a downloadUrl served through the license server instead.
-      - name: Sync root plugins.json
-        run: |
-          if [ -f public/docs/plugins.json ]; then
-            cp public/docs/plugins.json plugins.json
-          fi
-
-      - name: Auto-commit plugins.json
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add plugins.json || true
-          if git diff --cached --quiet plugins.json; then
-            echo "plugins.json unchanged"
-          else
-            git commit -m "ci: refresh plugins.json catalog [skip ci]"
-            git push origin HEAD:main
-          fi
+      #
+      # The hub itself detects ZERO plugins since Phase A parked the upstream
+      # dirs, so refreshing the root catalog from this repo would overwrite it
+      # with [] and race-wipe the entries that chefstevens/techbot-plugins CI
+      # merges in (that happened 10-13, c1be979 vs 4fbd770). The ONLY writer
+      # of the root plugins.json from now on is the techbot-plugins workflow.
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
