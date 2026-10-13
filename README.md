@@ -120,7 +120,7 @@ public class YourPlugin extends Plugin {
 
 The build produces plugin jars in the usual Gradle output folders. If the project applies a shading step, the final jars will be placed in the shadow or libs folder depending on the build script.
 
-Release downloads expect plugin assets at: `https://github.com/chsami/Microbot-Hub/releases/download/<version>/<pluginname>-<version>.jar`.
+Release downloads expect plugin assets at: `https://github.com/chefstevens/techbot-hub/releases/download/<version>/<pluginname>-<version>.jar`.
 
 ## Running a plugin in RuneLiteDebug for test purpose
 

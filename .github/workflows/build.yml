@@ -31,13 +31,13 @@ jobs:
         run: chmod +x gradlew
 
       - name: Build JARs
-        run: ./gradlew clean build -PpluginsReleaseTag=${{ env.PLUGINS_RELEASE_TAG }}
+        run: ./gradlew -PmicrobotClientVersion=2.6.151 clean build -PpluginsReleaseTag=${{ env.PLUGINS_RELEASE_TAG }}
 
       - name: Generate plugin documentation
-        run: ./gradlew copyPluginDocs -PpluginsReleaseTag=${{ env.PLUGINS_RELEASE_TAG }}
+        run: ./gradlew -PmicrobotClientVersion=2.6.151 copyPluginDocs -PpluginsReleaseTag=${{ env.PLUGINS_RELEASE_TAG }}
 
       - name: Generate plugins.json
-        run: ./gradlew generatePluginsJson -PpluginsReleaseTag=${{ env.PLUGINS_RELEASE_TAG }}
+        run: ./gradlew -PmicrobotClientVersion=2.6.151 generatePluginsJson -PpluginsReleaseTag=${{ env.PLUGINS_RELEASE_TAG }}
 
       - name: Create/Update GitHub Release with JARs (latest-release)
         uses: ncipollo/release-action@v1
