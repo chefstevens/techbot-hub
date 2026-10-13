@@ -220,6 +220,16 @@ ext {
                 def pluginId = plugin.name.toLowerCase()
                 parsed.url = "${releaseBase}/${releaseTag}/${pluginId}-${descriptorInfo.version}.jar"
 
+                // License-gated entries (Bryan 2026-10-13 script-safeguard): a
+                // private.txt marker in the plugin dir means the jar lives in
+                // the PRIVATE techbot-jars repo and is served only to a valid
+                // HWID-locked key through the license server's /hub/jar proxy.
+                // The public URL above stays in the entry as a harmless
+                // placeholder; the client's getJarURL prefers downloadUrl.
+                if (new File(plugin.dir, "private.txt").exists()) {
+                    parsed.downloadUrl = "https://license-server-techbot.onrender.com/hub/jar/${plugin.name}-${descriptorInfo.version}.jar"
+                }
+
                 plugins << parsed
                 logger.info("✅ Plugin ${plugin.name} processed successfully")
 

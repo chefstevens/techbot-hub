@@ -39,15 +39,27 @@ jobs:
       - name: Generate plugins.json
         run: ./gradlew -PmicrobotClientVersion=2.6.151 generatePluginsJson -PpluginsReleaseTag=${{ env.PLUGINS_RELEASE_TAG }}
 
-      - name: Create/Update GitHub Release with JARs (latest-release)
-        uses: ncipollo/release-action@v1
-        with:
-          tag: ${{ env.PLUGINS_RELEASE_TAG }}
-          name: Latest build (${{ env.PLUGINS_RELEASE_TAG }})
-          body: "Commit: ${{ github.sha }}"
-          allowUpdates: true
-          replacesArtifacts: true
-          artifacts: "**/build/libs/*.jar"
+      # Jars are NO LONGER published here (10-13 script-safeguard): plugin
+      # builds produce the jars the manifest hashes, but the artifacts land in
+      # the private techbot-jars repo via the techbot-plugins workflow. TechBot
+      # entries carry a downloadUrl served through the license server instead.
+      - name: Sync root plugins.json
+        run: |
+          if [ -f public/docs/plugins.json ]; then
+            cp public/docs/plugins.json plugins.json
+          fi
+
+      - name: Auto-commit plugins.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add plugins.json || true
+          if git diff --cached --quiet plugins.json; then
+            echo "plugins.json unchanged"
+          else
+            git commit -m "ci: refresh plugins.json catalog [skip ci]"
+            git push origin HEAD:main
+          fi
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
