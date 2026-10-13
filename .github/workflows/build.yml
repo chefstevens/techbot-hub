@@ -31,7 +31,7 @@ jobs:
         run: chmod +x gradlew
 
       - name: Build JARs
-        run: ./gradlew -PmicrobotClientVersion=2.6.151 clean build -PpluginsReleaseTag=${{ env.PLUGINS_RELEASE_TAG }}
+        run: ./gradlew -PmicrobotClientVersion=2.6.151 clean build -x test -PpluginsReleaseTag=${{ env.PLUGINS_RELEASE_TAG }}
 
       - name: Generate plugin documentation
         run: ./gradlew -PmicrobotClientVersion=2.6.151 copyPluginDocs -PpluginsReleaseTag=${{ env.PLUGINS_RELEASE_TAG }}
