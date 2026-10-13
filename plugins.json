@@ -11,12 +11,12 @@
     "version": "1.10.17",
     "minClientVersion": "2.6.26",
     "authors": [
-      "droplugins"
+      "TechPlugins"
     ],
     "iconUrl": "",
     "cardUrl": "",
     "disable": false,
-    "sha256": "be96834b785b555ea6c58c9d7fe0db88b422483cfc86ae69552f8adb842b66f6",
+    "sha256": "1ba51731560349a5fbbba73a14f8770b3601fece127f263f4cbbc89d313c2bcd",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotzulrahplugin-1.10.17.jar",
     "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotZulrahPlugin-1.10.17.jar"
   },
@@ -35,12 +35,12 @@
     "version": "0.3.71",
     "minClientVersion": "2.6.30",
     "authors": [
-      "droplugins"
+      "TechPlugins"
     ],
     "iconUrl": "",
     "cardUrl": "",
     "disable": false,
-    "sha256": "b68204f7ac5b6e8634788c898e5aae664ea7a27692e6704263e64af72e0be760",
+    "sha256": "a0dae35f156f7577a39b02189bb7d63e048a32a3ad0b6a5fbe986ca69c13eb96",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotfirecapeplugin-0.3.71.jar",
     "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotFirecapePlugin-0.3.71.jar"
   }
