@@ -1,5 +1,27 @@
 [
   {
+    "internalName": "TechBotChinTickManipulationPlugin",
+    "name": "TechBot ChinTickManipulation",
+    "description": "3-tick hunter: uses Swamp tar on Guam leaf when the chinchompa catch animation starts. Polls from t=0 and snapshots every candidate trap tile for black-chin speed.",
+    "tags": [
+      "chins",
+      "hunter",
+      "tick",
+      "techbot"
+    ],
+    "version": "1.0.0",
+    "minClientVersion": "2.6.26",
+    "authors": [
+      "TechPlugins"
+    ],
+    "iconUrl": "",
+    "cardUrl": "",
+    "disable": false,
+    "sha256": "99e53062c0702524e5555d696aa1bcd32f6ce4d9ca9177f67b0eedd3aa23eaa8",
+    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotchintickmanipulationplugin-1.0.0.jar",
+    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotChinTickManipulationPlugin-1.0.0.jar"
+  },
+  {
     "internalName": "TechBotZulrahPlugin",
     "name": "[TechBot] Zulrah",
     "description": "Inventory-setup driven Zulrah trips, rotations, prayer, switches, thralls and regear",
