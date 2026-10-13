@@ -1,5 +1,72 @@
 [
   {
+    "internalName": "FleetPlugin",
+    "name": "TechBot Fleet Control",
+    "description": "One click triggers the next one-click action on every participating client (multi-account fleet)",
+    "tags": [
+      "fleet",
+      "one-click",
+      "multi-account",
+      "techbot"
+    ],
+    "version": "1.0.0",
+    "minClientVersion": "2.6.26",
+    "authors": [
+      "TechPlugins"
+    ],
+    "iconUrl": "",
+    "cardUrl": "",
+    "disable": false,
+    "sha256": "0ac6dbff92d11b68bdb2612cf504a746823a4f9b36366171c5024b4ca278714c",
+    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/fleetplugin-1.0.0.jar",
+    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/FleetPlugin-1.0.0.jar"
+  },
+  {
+    "internalName": "TechsAioPlugin",
+    "name": "Techsaio",
+    "description": "Tech's AIO — starts with woodcutting, more tasks later",
+    "tags": [
+      "techsaio",
+      "tech",
+      "aio",
+      "woodcutting",
+      "microbot"
+    ],
+    "version": "1.0.0",
+    "minClientVersion": "2.6.26",
+    "authors": [
+      "TechPlugins"
+    ],
+    "iconUrl": "",
+    "cardUrl": "",
+    "disable": false,
+    "sha256": "5dd1589df4c43ec8fa0967a0d201fec2d9fdb1d1fcc4ba8580eec20d9d2b3c7d",
+    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techsaioplugin-1.0.0.jar",
+    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechsAioPlugin-1.0.0.jar"
+  },
+  {
+    "internalName": "AccountBuilderPlugin",
+    "name": "<html>[<font color=green>D</font>] TechBot AccountBuilder",
+    "description": "Create accounts (semi-manual signup + generated credentials) and export them to TechBot profiles",
+    "tags": [
+      "account",
+      "maker",
+      "creator",
+      "techbot"
+    ],
+    "version": "1.0.0",
+    "minClientVersion": "2.6.26",
+    "authors": [
+      "TechPlugins"
+    ],
+    "iconUrl": "",
+    "cardUrl": "",
+    "disable": false,
+    "sha256": "22e17404e5fb49283801bf5937251201cf57ef2ed09ecfbe824eabe2d4290407",
+    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/accountbuilderplugin-1.0.0.jar",
+    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/AccountBuilderPlugin-1.0.0.jar"
+  },
+  {
     "internalName": "TechBotChinTickManipulationPlugin",
     "name": "TechBot ChinTickManipulation",
     "description": "3-tick hunter: uses Swamp tar on Guam leaf when the chinchompa catch animation starts. Polls from t=0 and snapshots every candidate trap tile for black-chin speed.",
@@ -41,6 +108,28 @@
     "sha256": "fb2dec66b1f3e004d929f65cd74effbc748d4d09c7a60e823635d80c7fc42058",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotzulrahplugin-1.10.17.jar",
     "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotZulrahPlugin-1.10.17.jar"
+  },
+  {
+    "internalName": "TechsMulePlugin",
+    "name": "Techs Mule",
+    "description": "Standalone mule — idles on a tile and gives or takes gold via player trade",
+    "tags": [
+      "techs",
+      "mule",
+      "trade",
+      "microbot"
+    ],
+    "version": "1.0.0",
+    "minClientVersion": "2.6.26",
+    "authors": [
+      "TechPlugins"
+    ],
+    "iconUrl": "",
+    "cardUrl": "",
+    "disable": false,
+    "sha256": "7545640c8e3ed2a0b083d933b7588ab8b9587cd759398da0324747bbd0d193bf",
+    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techsmuleplugin-1.0.0.jar",
+    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechsMulePlugin-1.0.0.jar"
   },
   {
     "internalName": "TechBotFirecapePlugin",
@@ -88,5 +177,30 @@
     "sha256": "208f18ef7b205ae99e26f32c686d2681941472eac0fc48c4f649b297a6a5bd16",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techqolplugin-1.0.0.jar",
     "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechQolPlugin-1.0.0.jar"
+  },
+  {
+    "internalName": "TechBotFlipperPlugin",
+    "name": "TechBot Flipper",
+    "description": "Self-contained GE flipping: wiki-priced item picking, bid/ask automation, PnL ledger",
+    "tags": [
+      "flip",
+      "flipping",
+      "ge",
+      "grand",
+      "exchange",
+      "techbot",
+      "trading"
+    ],
+    "version": "1.8.5",
+    "minClientVersion": "2.0.13",
+    "authors": [
+      "Unknown Author"
+    ],
+    "iconUrl": "",
+    "cardUrl": "",
+    "disable": false,
+    "sha256": "7d21be089cea901c090b74423364f0389c68ad7660491fe6fcc6d6d892a9cfc8",
+    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotflipperplugin-1.8.5.jar",
+    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotFlipperPlugin-1.8.5.jar"
   }
 ]
