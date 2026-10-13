@@ -1,3 +1,47 @@
 [
-    
+  {
+    "internalName": "TechBotZulrahPlugin",
+    "name": "[TechBot] Zulrah",
+    "description": "Inventory-setup driven Zulrah trips, rotations, prayer, switches, thralls and regear",
+    "tags": [
+      "microbot",
+      "zulrah",
+      "techbot"
+    ],
+    "version": "1.10.17",
+    "minClientVersion": "2.6.26",
+    "authors": [
+      "droplugins"
+    ],
+    "iconUrl": "",
+    "cardUrl": "",
+    "disable": false,
+    "sha256": "be96834b785b555ea6c58c9d7fe0db88b422483cfc86ae69552f8adb842b66f6",
+    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotzulrahplugin-1.10.17.jar",
+    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotZulrahPlugin-1.10.17.jar"
+  },
+  {
+    "internalName": "TechBotFirecapePlugin",
+    "name": "[TechBot] Firecape",
+    "description": "Fight Caves with preserved regular combat and isolated pure positioning / native tick prayers",
+    "tags": [
+      "microbot",
+      "techbot",
+      "firecape",
+      "fight caves",
+      "jad",
+      "boss"
+    ],
+    "version": "0.3.71",
+    "minClientVersion": "2.6.30",
+    "authors": [
+      "droplugins"
+    ],
+    "iconUrl": "",
+    "cardUrl": "",
+    "disable": false,
+    "sha256": "b68204f7ac5b6e8634788c898e5aae664ea7a27692e6704263e64af72e0be760",
+    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotfirecapeplugin-0.3.71.jar",
+    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotFirecapePlugin-0.3.71.jar"
+  }
 ]
