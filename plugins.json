@@ -98,7 +98,7 @@
       "zulrah",
       "techbot"
     ],
-    "version": "1.10.18",
+    "version": "1.10.19",
     "minClientVersion": "2.6.26",
     "authors": [
       "TechPlugins"
@@ -106,9 +106,9 @@
     "iconUrl": "",
     "cardUrl": "",
     "disable": false,
-    "sha256": "fba1d059e9171462ce2ace58e53a8a399b596d257bbd160192e5ee0a1ab9e3ca",
-    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotzulrahplugin-1.10.18.jar",
-    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotZulrahPlugin-1.10.18.jar"
+    "sha256": "1114ebff7d90093f75b9464eaecfe1005fc56c7fe8d63c00aa2e2fcc09df850b",
+    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotzulrahplugin-1.10.19.jar",
+    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotZulrahPlugin-1.10.19.jar"
   },
   {
     "internalName": "TechsMulePlugin",
