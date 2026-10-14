@@ -46,7 +46,7 @@
   },
   {
     "internalName": "AccountBuilderPlugin",
-    "name": "<html>[<font color=green>D</font>] TechBot AccountBuilder",
+    "name": "Tech AccountBuilder",
     "description": "Create accounts (semi-manual signup + generated credentials) and export them to TechBot profiles",
     "tags": [
       "account",
@@ -62,7 +62,7 @@
     "iconUrl": "",
     "cardUrl": "",
     "disable": false,
-    "sha256": "22e17404e5fb49283801bf5937251201cf57ef2ed09ecfbe824eabe2d4290407",
+    "sha256": "bde718fc444ed6565ec6673de8b0bd01a1ce0417757500db8d6255efac96886f",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/accountbuilderplugin-1.0.0.jar",
     "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/AccountBuilderPlugin-1.0.0.jar"
   },
