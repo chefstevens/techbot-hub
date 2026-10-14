@@ -133,6 +133,7 @@
   },
   {
     "internalName": "TechBotFirecapePlugin",
+    "scriptScope": "techbotfirecape",
     "name": "[TechBot] Firecape",
     "description": "Fight Caves with preserved regular combat and isolated pure positioning / native tick prayers",
     "tags": [
@@ -143,7 +144,7 @@
       "jad",
       "boss"
     ],
-    "version": "0.3.71",
+    "version": "0.3.72",
     "minClientVersion": "2.6.30",
     "authors": [
       "TechPlugins"
@@ -151,9 +152,9 @@
     "iconUrl": "",
     "cardUrl": "",
     "disable": false,
-    "sha256": "46ec8b15501150f75a4ba3989a17128f7d8e73e622572a8a8f0bc9d094be7c37",
-    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotfirecapeplugin-0.3.71.jar",
-    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotFirecapePlugin-0.3.71.jar"
+    "sha256": "d265ad4745e4bcbfe8ca42481790835c8b63a1c7d3486c475de05ab2296b6987",
+    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotfirecapeplugin-0.3.72.jar",
+    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotFirecapePlugin-0.3.72.jar"
   },
   {
     "internalName": "TechQolPlugin",
