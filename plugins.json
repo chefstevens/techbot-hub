@@ -90,6 +90,7 @@
   },
   {
     "internalName": "TechBotZulrahPlugin",
+    "scriptScope": "techbotzulrah",
     "name": "[TechBot] Zulrah",
     "description": "Inventory-setup driven Zulrah trips, rotations, prayer, switches, thralls and regear",
     "tags": [
@@ -97,7 +98,7 @@
       "zulrah",
       "techbot"
     ],
-    "version": "1.10.17",
+    "version": "1.10.18",
     "minClientVersion": "2.6.26",
     "authors": [
       "TechPlugins"
@@ -105,9 +106,9 @@
     "iconUrl": "",
     "cardUrl": "",
     "disable": false,
-    "sha256": "fb2dec66b1f3e004d929f65cd74effbc748d4d09c7a60e823635d80c7fc42058",
-    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotzulrahplugin-1.10.17.jar",
-    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotZulrahPlugin-1.10.17.jar"
+    "sha256": "fba1d059e9171462ce2ace58e53a8a399b596d257bbd160192e5ee0a1ab9e3ca",
+    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotzulrahplugin-1.10.18.jar",
+    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotZulrahPlugin-1.10.18.jar"
   },
   {
     "internalName": "TechsMulePlugin",
