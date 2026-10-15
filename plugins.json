@@ -9,7 +9,7 @@
       "multi-account",
       "techbot"
     ],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "minClientVersion": "2.6.26",
     "authors": [
       "TechPlugins"
@@ -17,9 +17,9 @@
     "iconUrl": "",
     "cardUrl": "",
     "disable": false,
-    "sha256": "a76b93390f8c835fc43445c93aade87a231dc99b4851d5989b0369a8b74ff2f9",
-    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/fleetplugin-1.0.0.jar",
-    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/FleetPlugin-1.0.0.jar"
+    "sha256": "cf76057a12250fdf3b209ec5e2470e0552b7dd0226ca26bef5c7f8ff4653a22d",
+    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/fleetplugin-1.0.1.jar",
+    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/FleetPlugin-1.0.1.jar"
   },
   {
     "internalName": "TechsAioPlugin",
@@ -32,7 +32,7 @@
       "woodcutting",
       "microbot"
     ],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "minClientVersion": "2.6.26",
     "authors": [
       "TechPlugins"
@@ -40,9 +40,9 @@
     "iconUrl": "",
     "cardUrl": "",
     "disable": false,
-    "sha256": "1891d17328b95b8b644b814dd4aba68bb11e179441b32c87352a194f4bc87477",
-    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techsaioplugin-1.0.0.jar",
-    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechsAioPlugin-1.0.0.jar"
+    "sha256": "32850707975a3d188fa9658957a703aec14e0412278e22939d5bb0e4a0ef7c42",
+    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techsaioplugin-1.0.1.jar",
+    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechsAioPlugin-1.0.1.jar"
   },
   {
     "internalName": "AccountBuilderPlugin",
@@ -54,7 +54,7 @@
       "creator",
       "techbot"
     ],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "minClientVersion": "2.6.26",
     "authors": [
       "TechPlugins"
@@ -62,9 +62,9 @@
     "iconUrl": "",
     "cardUrl": "",
     "disable": false,
-    "sha256": "f3ebb2b5e4fd91239ed84fd7b912673ed4dc9c48b251abd09157c269230a5ff6",
-    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/accountbuilderplugin-1.0.0.jar",
-    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/AccountBuilderPlugin-1.0.0.jar"
+    "sha256": "f38cbab51b7dbb6e9ccaa090e3cf52a1dea800cea2da22b0febcdad882d1b01f",
+    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/accountbuilderplugin-1.0.1.jar",
+    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/AccountBuilderPlugin-1.0.1.jar"
   },
   {
     "internalName": "TechBotChinTickManipulationPlugin",
@@ -76,7 +76,7 @@
       "tick",
       "techbot"
     ],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "minClientVersion": "2.6.26",
     "authors": [
       "TechPlugins"
@@ -84,9 +84,9 @@
     "iconUrl": "",
     "cardUrl": "",
     "disable": false,
-    "sha256": "96a6e9f862352527f9881eeb2b5cb5941a79eda1e371e17625b80e9f54459597",
-    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotchintickmanipulationplugin-1.0.0.jar",
-    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotChinTickManipulationPlugin-1.0.0.jar"
+    "sha256": "7a9b41e277fcef84e66879829ee89c41309508095105caff0fb2d68a8bdee690",
+    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotchintickmanipulationplugin-1.0.1.jar",
+    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotChinTickManipulationPlugin-1.0.1.jar"
   },
   {
     "internalName": "TechBotZulrahPlugin",
@@ -144,7 +144,7 @@
       "trade",
       "microbot"
     ],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "minClientVersion": "2.6.26",
     "authors": [
       "TechPlugins"
@@ -152,9 +152,9 @@
     "iconUrl": "",
     "cardUrl": "",
     "disable": false,
-    "sha256": "f2ec06bd51e26eb0271673ba40854be2cd6ab0310829a0543265878153dab670",
-    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techsmuleplugin-1.0.0.jar",
-    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechsMulePlugin-1.0.0.jar"
+    "sha256": "400ac4784ff402e23bdaabc6a25521baaf9f6fd00cc8e069e9bf9a44610ae038",
+    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techsmuleplugin-1.0.1.jar",
+    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechsMulePlugin-1.0.1.jar"
   },
   {
     "internalName": "TechBotFirecapePlugin",
@@ -192,7 +192,7 @@
       "qol",
       "techbot"
     ],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "minClientVersion": "2.6.26",
     "authors": [
       "TechPlugins"
@@ -200,9 +200,9 @@
     "iconUrl": "",
     "cardUrl": "",
     "disable": false,
-    "sha256": "1f6ce1afe28c44f7cff6fd5e828303be3ec99bf53b5454ce303d884008e39003",
-    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techqolplugin-1.0.0.jar",
-    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechQolPlugin-1.0.0.jar"
+    "sha256": "4277e4663976f4ba5e29c5072cbb7ef68d86bcfa85858a201e73fee1b04a399e",
+    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techqolplugin-1.0.1.jar",
+    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechQolPlugin-1.0.1.jar"
   },
   {
     "internalName": "TechBotFlipperPlugin",
@@ -217,7 +217,7 @@
       "techbot",
       "trading"
     ],
-    "version": "1.8.5",
+    "version": "1.8.6",
     "minClientVersion": "2.0.13",
     "authors": [
       "Unknown Author"
@@ -225,8 +225,8 @@
     "iconUrl": "",
     "cardUrl": "",
     "disable": false,
-    "sha256": "65219f413f636972db577568125fd8207ba78b128c03eb444b898325108c3b4f",
-    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotflipperplugin-1.8.5.jar",
-    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotFlipperPlugin-1.8.5.jar"
+    "sha256": "59185f14f5ba7ae0271761c5663b91ff71d90641024d6a33eb709889ae1c173d",
+    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotflipperplugin-1.8.6.jar",
+    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotFlipperPlugin-1.8.6.jar"
   }
 ]
