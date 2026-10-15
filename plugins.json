@@ -104,7 +104,8 @@
       "TechPlugins"
     ],
     "iconUrl": "",
-    "cardUrl": "",
+    "cardUrl": "https://raw.githubusercontent.com/chefstevens/techbot-hub/main/images/TechBotZulrahPlugin.png",
+    "price": "from $12.99",
     "disable": false,
     "sha256": "4e57ca894987fc7150590baab97f92bdc7715d0e2410334cb1496e0d5abdf64f",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotzulrahplugin-1.10.21.jar",
@@ -128,7 +129,8 @@
       "TechPlugins"
     ],
     "iconUrl": "",
-    "cardUrl": "",
+    "cardUrl": "https://raw.githubusercontent.com/chefstevens/techbot-hub/main/images/MoonsOfPerilPlugin.png",
+    "price": "from $9.99",
     "disable": false,
     "sha256": "67f8e93c4370cff05832f680b2b536c52bf9941205d3eac28ff451966e4ef8a5",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/moonsofperilplugin-1.0.6.jar",
@@ -175,7 +177,8 @@
       "TechPlugins"
     ],
     "iconUrl": "",
-    "cardUrl": "",
+    "cardUrl": "https://raw.githubusercontent.com/chefstevens/techbot-hub/main/images/TechBotFirecapePlugin.png",
+    "price": "$5 lifetime",
     "disable": false,
     "sha256": "3d35586285f082517f7323b38989d7f3b1372e591d2ca06c259b42787b1be2c8",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotfirecapeplugin-0.3.74.jar",
