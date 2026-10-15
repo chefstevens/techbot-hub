@@ -14,9 +14,16 @@ LOGO = r"C:\Users\Bryan\IdeaProjects\TechBot-Launcher\images\techbot.png"
 W, H = 512, 288
 # (title, accent glow RGB, subtitle)
 CARDS = [
-    ("TechBotZulrahPlugin.png",  "TechBot Zulrah",      (184, 247,   4), "Boss script"),
+    ("TechBotZulrahPlugin.png",  "Zulrah",              (184, 247,   4), "Boss script"),
     ("MoonsOfPerilPlugin.png",   "Moons of Peril",      (170, 120, 255), "Boss script"),
-    ("TechBotFirecapePlugin.png","TechBot Firecape",    (255, 150,  40), "Fight Caves"),
+    ("TechBotFirecapePlugin.png","Firecape",            (255, 150,  40), "Fight Caves"),
+    ("FleetPlugin.png",          "Fleet Control",       ( 90, 200, 255), "Multi-account fleet"),
+    ("TechsAioPlugin.png",       "AIO",                 (255,  90,  90), "All-in-one skilling"),
+    ("AccountBuilderPlugin.png", "AccountBuilder",      ( 70, 230, 160), "Account creation"),
+    ("TechBotChinTickManipulationPlugin.png", "Chin Tick Manipulation", (255, 220, 70), "Chinchompa training"),
+    ("TechsMulePlugin.png",      "Mule",                (200, 140, 255), "Gold transfer"),
+    ("TechQolPlugin.png",        "QoL",                 (120, 170, 255), "Quality of life"),
+    ("TechBotFlipperPlugin.png", "Flipper",             ( 60, 255, 180), "GE flipping"),
 ]
 
 hero = Image.open(HERO).convert("RGB")
