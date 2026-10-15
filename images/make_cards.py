@@ -84,14 +84,8 @@ for fname, title, accent, tagline in CARDS:
     cr = ImageDraw.Draw(crest)
     card.paste(crest, (W - 108, 14), crest)
 
-    # title + tagline
-    f_title = title_font(40)
-    f_small = small_font()
-    x, y = 20, H - 88
-    d.text((x + 2, y + 2), title, font=f_title, fill=(0, 0, 0))         # shadow
-    d.text((x, y), title, font=f_title, fill=accent)
-    d.text((x, y + 54), tagline, font=f_small, fill=(210, 214, 230))
-    d.text((x, y + 54 - 1), tagline, font=f_small, fill=(210, 214, 230))
+    # no baked text — the popup overlays the (editable) script name itself;
+    # baked titles collided with that overlay on both renders
 
     card.save(f"{ROOT}\\{fname}", optimize=True)
     print("wrote", fname)
