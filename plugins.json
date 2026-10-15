@@ -98,7 +98,7 @@
       "zulrah",
       "techbot"
     ],
-    "version": "1.10.20",
+    "version": "1.10.21",
     "minClientVersion": "2.6.26",
     "authors": [
       "TechPlugins"
@@ -106,9 +106,9 @@
     "iconUrl": "",
     "cardUrl": "",
     "disable": false,
-    "sha256": "c91b269f23744981d6e8a871c5937620ce09db4ed0883c657ec053563691b5fb",
-    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotzulrahplugin-1.10.20.jar",
-    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotZulrahPlugin-1.10.20.jar"
+    "sha256": "7df1b98ad595b9b1b89d14b3d981b35663692318f9e0c25d63bb3409b614ab62",
+    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotzulrahplugin-1.10.21.jar",
+    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotZulrahPlugin-1.10.21.jar"
   },
   {
     "internalName": "MoonsOfPerilPlugin",
@@ -122,7 +122,7 @@
       "combat",
       "techbot"
     ],
-    "version": "1.0.5",
+    "version": "1.0.6",
     "minClientVersion": "2.6.26",
     "authors": [
       "TechPlugins"
@@ -130,9 +130,9 @@
     "iconUrl": "",
     "cardUrl": "",
     "disable": false,
-    "sha256": "cc1bee1cc9dd3c8c13dba5d982526276aeca41275117f07c4937b7a4a715ac90",
-    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/moonsofperilplugin-1.0.5.jar",
-    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/MoonsOfPerilPlugin-1.0.5.jar"
+    "sha256": "54be3c90b95794c4d28960eb1ddd2b5d76807f43c7c728f142c0bfcda0a555f5",
+    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/moonsofperilplugin-1.0.6.jar",
+    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/MoonsOfPerilPlugin-1.0.6.jar"
   },
   {
     "internalName": "TechsMulePlugin",
