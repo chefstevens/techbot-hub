@@ -111,6 +111,30 @@
     "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotZulrahPlugin-1.10.20.jar"
   },
   {
+    "internalName": "MoonsOfPerilPlugin",
+    "scriptScope": "techbotmoonsofperil",
+    "name": "[TB] Moons of Peril",
+    "description": "A plugin to farm the Moons of Peril",
+    "tags": [
+      "bossing",
+      "pvm",
+      "moneymaking",
+      "combat",
+      "techbot"
+    ],
+    "version": "1.0.5",
+    "minClientVersion": "2.6.26",
+    "authors": [
+      "TechPlugins"
+    ],
+    "iconUrl": "",
+    "cardUrl": "",
+    "disable": false,
+    "sha256": "cc1bee1cc9dd3c8c13dba5d982526276aeca41275117f07c4937b7a4a715ac90",
+    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/moonsofperilplugin-1.0.5.jar",
+    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/MoonsOfPerilPlugin-1.0.5.jar"
+  },
+  {
     "internalName": "TechsMulePlugin",
     "name": "[TB] Mule",
     "description": "Standalone mule — idles on a tile and gives or takes gold via player trade",
