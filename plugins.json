@@ -1,7 +1,7 @@
 [
   {
     "internalName": "FleetPlugin",
-    "name": "[TB] Fleet Control",
+    "name": "<html>[<font color=#b8f704>TB</font>] Fleet Control</html>",
     "description": "One click triggers the next one-click action on every participating client (multi-account fleet)",
     "tags": [
       "fleet",
@@ -17,13 +17,13 @@
     "iconUrl": "",
     "cardUrl": "",
     "disable": false,
-    "sha256": "c34a14d2396e7dbf2d316782a9908ec6edaa0dff58e938de34fc1f4aa5cf0181",
+    "sha256": "a76b93390f8c835fc43445c93aade87a231dc99b4851d5989b0369a8b74ff2f9",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/fleetplugin-1.0.0.jar",
     "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/FleetPlugin-1.0.0.jar"
   },
   {
     "internalName": "TechsAioPlugin",
-    "name": "[TB] AIO",
+    "name": "<html>[<font color=#b8f704>TB</font>] AIO</html>",
     "description": "Tech's AIO — starts with woodcutting, more tasks later",
     "tags": [
       "techsaio",
@@ -40,13 +40,13 @@
     "iconUrl": "",
     "cardUrl": "",
     "disable": false,
-    "sha256": "63f107f8ba0a96642cfbf4a86b29dc83e64640c0cf9c41f5ba6b59f274d5b7c2",
+    "sha256": "1891d17328b95b8b644b814dd4aba68bb11e179441b32c87352a194f4bc87477",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techsaioplugin-1.0.0.jar",
     "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechsAioPlugin-1.0.0.jar"
   },
   {
     "internalName": "AccountBuilderPlugin",
-    "name": "[TB] AccountBuilder",
+    "name": "<html>[<font color=#b8f704>TB</font>] AccountBuilder</html>",
     "description": "Create accounts (semi-manual signup + generated credentials) and export them to TechBot profiles",
     "tags": [
       "account",
@@ -62,13 +62,13 @@
     "iconUrl": "",
     "cardUrl": "",
     "disable": false,
-    "sha256": "95e6c31bb2b7ebc270ff4eaf99f7aff3f7e26216f4828f6f3e73d3ffc39f3a6a",
+    "sha256": "f3ebb2b5e4fd91239ed84fd7b912673ed4dc9c48b251abd09157c269230a5ff6",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/accountbuilderplugin-1.0.0.jar",
     "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/AccountBuilderPlugin-1.0.0.jar"
   },
   {
     "internalName": "TechBotChinTickManipulationPlugin",
-    "name": "[TB] ChinTickManipulation",
+    "name": "<html>[<font color=#b8f704>TB</font>] ChinTickManipulation</html>",
     "description": "3-tick hunter: uses Swamp tar on Guam leaf when the chinchompa catch animation starts. Polls from t=0 and snapshots every candidate trap tile for black-chin speed.",
     "tags": [
       "chins",
@@ -84,14 +84,14 @@
     "iconUrl": "",
     "cardUrl": "",
     "disable": false,
-    "sha256": "66d833639fb6db07f1fd50c9ca9539f7e24d678c5d746cdfac1701bb5e8ba0bc",
+    "sha256": "96a6e9f862352527f9881eeb2b5cb5941a79eda1e371e17625b80e9f54459597",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotchintickmanipulationplugin-1.0.0.jar",
     "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotChinTickManipulationPlugin-1.0.0.jar"
   },
   {
     "internalName": "TechBotZulrahPlugin",
     "scriptScope": "techbotzulrah",
-    "name": "[TB] Zulrah",
+    "name": "<html>[<font color=#b8f704>TB</font>] Zulrah</html>",
     "description": "Inventory-setup driven Zulrah trips, rotations, prayer, switches, thralls and regear",
     "tags": [
       "microbot",
@@ -106,14 +106,14 @@
     "iconUrl": "",
     "cardUrl": "",
     "disable": false,
-    "sha256": "7df1b98ad595b9b1b89d14b3d981b35663692318f9e0c25d63bb3409b614ab62",
+    "sha256": "4e57ca894987fc7150590baab97f92bdc7715d0e2410334cb1496e0d5abdf64f",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotzulrahplugin-1.10.21.jar",
     "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotZulrahPlugin-1.10.21.jar"
   },
   {
     "internalName": "MoonsOfPerilPlugin",
     "scriptScope": "techbotmoonsofperil",
-    "name": "[TB] Moons of Peril",
+    "name": "<html>[<font color=#b8f704>TB</font>] Moons of Peril</html>",
     "description": "A plugin to farm the Moons of Peril",
     "tags": [
       "bossing",
@@ -130,13 +130,13 @@
     "iconUrl": "",
     "cardUrl": "",
     "disable": false,
-    "sha256": "54be3c90b95794c4d28960eb1ddd2b5d76807f43c7c728f142c0bfcda0a555f5",
+    "sha256": "d49fcb76e2a5e028ca9e77002a3d32f46bee89e37cd905ad8084dba57a081ed9",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/moonsofperilplugin-1.0.6.jar",
     "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/MoonsOfPerilPlugin-1.0.6.jar"
   },
   {
     "internalName": "TechsMulePlugin",
-    "name": "[TB] Mule",
+    "name": "<html>[<font color=#b8f704>TB</font>] Mule</html>",
     "description": "Standalone mule — idles on a tile and gives or takes gold via player trade",
     "tags": [
       "techs",
@@ -152,14 +152,14 @@
     "iconUrl": "",
     "cardUrl": "",
     "disable": false,
-    "sha256": "d46faeebd4f021b14aaa4b736c0a92caec603735144895248f903ff6e10e51db",
+    "sha256": "f2ec06bd51e26eb0271673ba40854be2cd6ab0310829a0543265878153dab670",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techsmuleplugin-1.0.0.jar",
     "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechsMulePlugin-1.0.0.jar"
   },
   {
     "internalName": "TechBotFirecapePlugin",
     "scriptScope": "techbotfirecape",
-    "name": "[TB] Firecape",
+    "name": "<html>[<font color=#b8f704>TB</font>] Firecape</html>",
     "description": "Fight Caves with preserved regular combat and isolated pure positioning / native tick prayers",
     "tags": [
       "microbot",
@@ -177,13 +177,13 @@
     "iconUrl": "",
     "cardUrl": "",
     "disable": false,
-    "sha256": "7db2ddd0f47f2546eecdaa25de3e419a6007ab147a727dd34f0cba6d1b18688a",
+    "sha256": "3d35586285f082517f7323b38989d7f3b1372e591d2ca06c259b42787b1be2c8",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotfirecapeplugin-0.3.74.jar",
     "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotFirecapePlugin-0.3.74.jar"
   },
   {
     "internalName": "TechQolPlugin",
-    "name": "[TB] QoL",
+    "name": "<html>[<font color=#b8f704>TB</font>] QoL</html>",
     "description": "PvP protection — switches overhead prayers to match the gear of whoever is attacking you. Never blocks your input.",
     "tags": [
       "pvp",
@@ -200,13 +200,13 @@
     "iconUrl": "",
     "cardUrl": "",
     "disable": false,
-    "sha256": "727a8d3221be701703825bef6649a0d5617e86ecc1b3978039a88e0bac7b9d6c",
+    "sha256": "1f6ce1afe28c44f7cff6fd5e828303be3ec99bf53b5454ce303d884008e39003",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techqolplugin-1.0.0.jar",
     "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechQolPlugin-1.0.0.jar"
   },
   {
     "internalName": "TechBotFlipperPlugin",
-    "name": "[TB] Flipper",
+    "name": "<html>[<font color=#b8f704>TB</font>] Flipper</html>",
     "description": "Self-contained GE flipping: wiki-priced item picking, bid/ask automation, PnL ledger",
     "tags": [
       "flip",
@@ -225,7 +225,7 @@
     "iconUrl": "",
     "cardUrl": "",
     "disable": false,
-    "sha256": "8a4ff7e6f26a2fd0ce3efbdcf439d3039145128c50235fba3d476e76117ec253",
+    "sha256": "65219f413f636972db577568125fd8207ba78b128c03eb444b898325108c3b4f",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotflipperplugin-1.8.5.jar",
     "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotFlipperPlugin-1.8.5.jar"
   }
