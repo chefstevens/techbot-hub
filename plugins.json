@@ -169,7 +169,7 @@
       "jad",
       "boss"
     ],
-    "version": "0.3.73",
+    "version": "0.3.74",
     "minClientVersion": "2.6.30",
     "authors": [
       "TechPlugins"
@@ -177,9 +177,9 @@
     "iconUrl": "",
     "cardUrl": "",
     "disable": false,
-    "sha256": "ba39947a8677d019a708658bea92911fdc708a72cb6fdf8c373f4db26c74e0c0",
-    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotfirecapeplugin-0.3.73.jar",
-    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotFirecapePlugin-0.3.73.jar"
+    "sha256": "7db2ddd0f47f2546eecdaa25de3e419a6007ab147a727dd34f0cba6d1b18688a",
+    "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotfirecapeplugin-0.3.74.jar",
+    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotFirecapePlugin-0.3.74.jar"
   },
   {
     "internalName": "TechQolPlugin",
