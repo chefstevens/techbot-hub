@@ -110,8 +110,7 @@
     "sha256": "4e57ca894987fc7150590baab97f92bdc7715d0e2410334cb1496e0d5abdf64f",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotzulrahplugin-1.10.21.jar",
     "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotZulrahPlugin-1.10.21.jar",
-    "bakedTitle": true,
-    "fullArt": true
+    "bakedTitle": true
   },
   {
     "internalName": "MoonsOfPerilPlugin",
