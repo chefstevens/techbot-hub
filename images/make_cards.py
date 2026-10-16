@@ -56,8 +56,8 @@ BACKDROP = crop_castle()
 
 for fname, title, accent, tagline in CARDS:
     card = BACKDROP.copy()
-    card = ImageEnhance.Brightness(card).enhance(0.52)   # moody dark
-    card = ImageEnhance.Color(card).enhance(0.55)       # mute the painting
+    card = ImageEnhance.Brightness(card).enhance(0.74)   # keep the picture readable
+    card = ImageEnhance.Color(card).enhance(0.85)
 
     glow = Image.new("RGB", (W, H), accent)
     mask = Image.new("L", (W, H), 0)
@@ -69,7 +69,7 @@ for fname, title, accent, tagline in CARDS:
     # bottom vignette so the title reads
     shade = Image.new("L", (W, H), 0)
     sd = ImageDraw.Draw(shade)
-    sd.rectangle((0, H - 118, W, H), fill=210)
+    sd.rectangle((0, H - 108, W, H), fill=170)
     shade = shade.filter(ImageFilter.GaussianBlur(18))
     black = Image.new("RGB", (W, H), (8, 9, 14))
     card.paste(black, (0, 0), shade)
@@ -78,11 +78,6 @@ for fname, title, accent, tagline in CARDS:
 
     # accent top bar
     d.rectangle((0, 0, W, 4), fill=accent)
-
-    # crest watermark, right side
-    crest = logo.resize((92, 92), Image.LANCZOS)
-    cr = ImageDraw.Draw(crest)
-    card.paste(crest, (W - 108, 14), crest)
 
     # no baked text — the popup overlays the (editable) script name itself;
     # baked titles collided with that overlay on both renders
