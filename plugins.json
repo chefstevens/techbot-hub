@@ -1,7 +1,7 @@
 [
   {
     "internalName": "FleetPlugin",
-    "name": "<html>[<font color=#b8f704>TB</font>] Fleet Control</html>",
+    "name": "Fleet Control",
     "description": "One click triggers the next one-click action on every participating client (multi-account fleet)",
     "tags": [
       "fleet",
@@ -15,7 +15,7 @@
       "TechPlugins"
     ],
     "iconUrl": "",
-    "cardUrl": "",
+    "cardUrl": "https://raw.githubusercontent.com/chefstevens/techbot-hub/main/images/FleetPlugin.png",
     "disable": false,
     "sha256": "cf76057a12250fdf3b209ec5e2470e0552b7dd0226ca26bef5c7f8ff4653a22d",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/fleetplugin-1.0.1.jar",
@@ -23,8 +23,8 @@
   },
   {
     "internalName": "TechsAioPlugin",
-    "name": "<html>[<font color=#b8f704>TB</font>] AIO</html>",
-    "description": "Tech's AIO — starts with woodcutting, more tasks later",
+    "name": "AIO",
+    "description": "Tech's AIO \u00e2\u20ac\u201d starts with woodcutting, more tasks later",
     "tags": [
       "techsaio",
       "tech",
@@ -38,7 +38,7 @@
       "TechPlugins"
     ],
     "iconUrl": "",
-    "cardUrl": "",
+    "cardUrl": "https://raw.githubusercontent.com/chefstevens/techbot-hub/main/images/TechsAioPlugin.png",
     "disable": false,
     "sha256": "32850707975a3d188fa9658957a703aec14e0412278e22939d5bb0e4a0ef7c42",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techsaioplugin-1.0.1.jar",
@@ -46,7 +46,7 @@
   },
   {
     "internalName": "AccountBuilderPlugin",
-    "name": "<html>[<font color=#b8f704>TB</font>] AccountBuilder</html>",
+    "name": "AccountBuilder",
     "description": "Create accounts (semi-manual signup + generated credentials) and export them to TechBot profiles",
     "tags": [
       "account",
@@ -60,7 +60,7 @@
       "TechPlugins"
     ],
     "iconUrl": "",
-    "cardUrl": "",
+    "cardUrl": "https://raw.githubusercontent.com/chefstevens/techbot-hub/main/images/AccountBuilderPlugin.png",
     "disable": false,
     "sha256": "f38cbab51b7dbb6e9ccaa090e3cf52a1dea800cea2da22b0febcdad882d1b01f",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/accountbuilderplugin-1.0.1.jar",
@@ -68,7 +68,7 @@
   },
   {
     "internalName": "TechBotChinTickManipulationPlugin",
-    "name": "<html>[<font color=#b8f704>TB</font>] ChinTickManipulation</html>",
+    "name": "ChinTickManipulation",
     "description": "3-tick hunter: uses Swamp tar on Guam leaf when the chinchompa catch animation starts. Polls from t=0 and snapshots every candidate trap tile for black-chin speed.",
     "tags": [
       "chins",
@@ -82,7 +82,7 @@
       "TechPlugins"
     ],
     "iconUrl": "",
-    "cardUrl": "",
+    "cardUrl": "https://raw.githubusercontent.com/chefstevens/techbot-hub/main/images/TechBotChinTickManipulationPlugin.png",
     "disable": false,
     "sha256": "7a9b41e277fcef84e66879829ee89c41309508095105caff0fb2d68a8bdee690",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotchintickmanipulationplugin-1.0.1.jar",
@@ -91,7 +91,7 @@
   {
     "internalName": "TechBotZulrahPlugin",
     "scriptScope": "techbotzulrah",
-    "name": "<html>[<font color=#b8f704>TB</font>] Zulrah</html>",
+    "name": "Zulrah",
     "description": "Inventory-setup driven Zulrah trips, rotations, prayer, switches, thralls and regear",
     "tags": [
       "microbot",
@@ -104,16 +104,20 @@
       "TechPlugins"
     ],
     "iconUrl": "",
-    "cardUrl": "",
+    "cardUrl": "https://raw.githubusercontent.com/chefstevens/techbot-hub/main/images/zulrah_poster.jpg",
+    "price": "from $12.99",
     "disable": false,
     "sha256": "da38415bc1913ecebc141061ae28b73bb6aa3717026818a559bdfd002e57e35b",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotzulrahplugin-1.10.21.jar",
-    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotZulrahPlugin-1.10.21.jar"
+    "downloadUrl": "https://license-server-techbot.onrender.com/hub/jar/TechBotZulrahPlugin-1.10.21.jar",
+    "bakedTitle": true,
+    "portrait": true,
+    "artAspect": "594 / 885"
   },
   {
     "internalName": "MoonsOfPerilPlugin",
     "scriptScope": "techbotmoonsofperil",
-    "name": "<html>[<font color=#b8f704>TB</font>] Moons of Peril</html>",
+    "name": "Moons of Peril",
     "description": "A plugin to farm the Moons of Peril",
     "tags": [
       "bossing",
@@ -128,7 +132,8 @@
       "TechPlugins"
     ],
     "iconUrl": "",
-    "cardUrl": "",
+    "cardUrl": "https://raw.githubusercontent.com/chefstevens/techbot-hub/main/images/MoonsOfPerilPlugin.png",
+    "price": "from $9.99",
     "disable": false,
     "sha256": "3f592f2a329afd60e04edf3720de8f4255787ff0f0e6f32b97bc4183bbef8abe",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/moonsofperilplugin-1.0.6.jar",
@@ -136,8 +141,8 @@
   },
   {
     "internalName": "TechsMulePlugin",
-    "name": "<html>[<font color=#b8f704>TB</font>] Mule</html>",
-    "description": "Standalone mule — idles on a tile and gives or takes gold via player trade",
+    "name": "Mule",
+    "description": "Standalone mule \u00e2\u20ac\u201d idles on a tile and gives or takes gold via player trade",
     "tags": [
       "techs",
       "mule",
@@ -150,7 +155,7 @@
       "TechPlugins"
     ],
     "iconUrl": "",
-    "cardUrl": "",
+    "cardUrl": "https://raw.githubusercontent.com/chefstevens/techbot-hub/main/images/TechsMulePlugin.png",
     "disable": false,
     "sha256": "400ac4784ff402e23bdaabc6a25521baaf9f6fd00cc8e069e9bf9a44610ae038",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techsmuleplugin-1.0.1.jar",
@@ -159,7 +164,7 @@
   {
     "internalName": "TechBotFirecapePlugin",
     "scriptScope": "techbotfirecape",
-    "name": "<html>[<font color=#b8f704>TB</font>] Firecape</html>",
+    "name": "Firecape",
     "description": "Fight Caves with preserved regular combat and isolated pure positioning / native tick prayers",
     "tags": [
       "microbot",
@@ -175,7 +180,8 @@
       "TechPlugins"
     ],
     "iconUrl": "",
-    "cardUrl": "",
+    "cardUrl": "https://raw.githubusercontent.com/chefstevens/techbot-hub/main/images/TechBotFirecapePlugin.png",
+    "price": "$5 lifetime",
     "disable": false,
     "sha256": "c2df1553742c5537106ab6fd91159b45ecd97231aba474f4dfb7622cb94d9786",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotfirecapeplugin-0.3.75.jar",
@@ -183,8 +189,8 @@
   },
   {
     "internalName": "TechQolPlugin",
-    "name": "<html>[<font color=#b8f704>TB</font>] QoL</html>",
-    "description": "PvP protection — switches overhead prayers to match the gear of whoever is attacking you. Never blocks your input.",
+    "name": "QoL",
+    "description": "PvP protection \u00e2\u20ac\u201d switches overhead prayers to match the gear of whoever is attacking you. Never blocks your input.",
     "tags": [
       "pvp",
       "prayer",
@@ -198,7 +204,7 @@
       "TechPlugins"
     ],
     "iconUrl": "",
-    "cardUrl": "",
+    "cardUrl": "https://raw.githubusercontent.com/chefstevens/techbot-hub/main/images/TechQolPlugin.png",
     "disable": false,
     "sha256": "4277e4663976f4ba5e29c5072cbb7ef68d86bcfa85858a201e73fee1b04a399e",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techqolplugin-1.0.1.jar",
@@ -206,7 +212,7 @@
   },
   {
     "internalName": "TechBotFlipperPlugin",
-    "name": "<html>[<font color=#b8f704>TB</font>] Flipper</html>",
+    "name": "Flipper",
     "description": "Self-contained GE flipping: wiki-priced item picking, bid/ask automation, PnL ledger",
     "tags": [
       "flip",
@@ -223,7 +229,7 @@
       "Unknown Author"
     ],
     "iconUrl": "",
-    "cardUrl": "",
+    "cardUrl": "https://raw.githubusercontent.com/chefstevens/techbot-hub/main/images/TechBotFlipperPlugin.png",
     "disable": false,
     "sha256": "59185f14f5ba7ae0271761c5663b91ff71d90641024d6a33eb709889ae1c173d",
     "url": "https://github.com/chefstevens/techbot-hub/releases/download/latest-release/techbotflipperplugin-1.8.6.jar",
